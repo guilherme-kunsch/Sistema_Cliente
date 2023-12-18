@@ -12,7 +12,6 @@ body {
 
 .container {
   width: 100%;
-  position: fixed;
   padding: 10px 0;
   background-color: #fff;
   border-bottom: 1px solid #dee2e6 !important;
@@ -31,13 +30,66 @@ body {
   font-weight: 400;
 }
 
-.container .col-3 a {
+.col-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.col-3 a {
   text-decoration: none;
 }
 
-.container .col-3 .sair {
-  color: #dc3545 !important;
-  border: 1px solid red;
+.sair {
+  color: #dc3545;
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
+}
+
+.sair:hover {
+  background-color: #dc3545;
+  color: white;
+  transition: 0.5s;
+}
+
+.container-page {
+  width: 60vw;
+  padding: 50px 0;
+  border: 1px solid blue;
+  margin: auto;
+}
+
+.container-icons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.preventivo {
+  width: 250px;
+  border: 1px solid red;
+}
+
+.image span {
+  height: 1em;
+}
+
+.reativo {
+  width: 250px;
+  height: 50px;
+  border: 1px solid rgb(33, 3, 168);
+}
+
+.especial {
+  width: 250px;
+  height: 50px;
+  border: 1px solid red;
+}
+
+.reversa {
+  width: 250px;
+  height: 50px;
+  border: 1px solid red;
 }
