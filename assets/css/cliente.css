@@ -56,7 +56,6 @@ body {
 .container-page {
   width: 60vw;
   padding: 50px 0;
-  border: 1px solid blue;
   margin: auto;
 }
 
@@ -65,31 +64,30 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  gap: 25px;
 }
 
 .preventivo {
   width: 250px;
-  border: 1px solid red;
-}
-
-.image span {
-  height: 1em;
+  background-color: #fff;
+  padding: 1.25rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .reativo {
   width: 250px;
-  height: 50px;
-  border: 1px solid rgb(33, 3, 168);
+  background-color: #fff;
+  padding: 1.25rem;
 }
 
 .especial {
   width: 250px;
-  height: 50px;
-  border: 1px solid red;
+  background-color: #fff;
+  padding: 1.25rem;
 }
 
 .reversa {
   width: 250px;
-  height: 50px;
-  border: 1px solid red;
+  background-color: #fff;
+  padding: 1.25rem;
 }
