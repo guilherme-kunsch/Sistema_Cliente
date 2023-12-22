@@ -19,9 +19,10 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 350px;
 }
 
 .container .col-2 {
@@ -45,6 +46,7 @@ body {
   color: #dc3545;
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
+  font-size: 20px;
 }
 
 .sair:hover {
@@ -62,9 +64,12 @@ body {
 .container-icons {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 25px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container-icons i {
+  font-size: 50px;
 }
 
 .preventivo {
@@ -72,22 +77,43 @@ body {
   background-color: #fff;
   padding: 1.25rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
 }
 
 .reativo {
+  display: flex;
   width: 250px;
   background-color: #fff;
   padding: 1.25rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
 }
 
 .especial {
+  display: flex;
   width: 250px;
   background-color: #fff;
   padding: 1.25rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
 }
 
 .reversa {
+  display: flex;
   width: 250px;
   background-color: #fff;
   padding: 1.25rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.image {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
